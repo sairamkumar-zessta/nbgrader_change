@@ -585,7 +585,7 @@ div.dataTables_wrapper div.dataTables_filter input {
 {%- endblock -%}
 {%- block title -%}
 Manage Assignments
-<button id='switch_course_button'>Switch Course</button>
+<button id='switch_course_button'>Switch me Course</button>
 <div id="changeCourseModal" class="modal">
     <div class="courseModalContent">
         <span class="courseClose">&times;</span>
