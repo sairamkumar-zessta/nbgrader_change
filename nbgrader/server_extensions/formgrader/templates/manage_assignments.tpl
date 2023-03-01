@@ -739,9 +739,8 @@ Manage Students</a></li>
 {%endblock%}
 {% block script%}
 <script>
-    const url = window.location.href.split('.com');
-    const hub_url = url[0]+'.com/';
-    const ngshare_url=url[0]+'.com/services/ngshare/';
+    const hub_url = window.location.href.split('user')[0];
+    const ngshare_url=hub_url+'services/ngshare/';
     const switchCourseButton = document.getElementById("switch_course_button");
     const courseModal = document.getElementById("changeCourseModal");
     const closeSpan = document.getElementsByClassName("courseClose")[0];
